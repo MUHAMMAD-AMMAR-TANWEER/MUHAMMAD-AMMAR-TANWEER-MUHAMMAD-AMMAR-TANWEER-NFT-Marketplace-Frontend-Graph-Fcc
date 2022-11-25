@@ -124,6 +124,7 @@ export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress,
                                     <Image
                                         loader={() => imageURI}
                                         src={imageURI}
+                                        unoptimized
                                         height="200"
                                         width="200"
                                     />
